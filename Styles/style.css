@@ -16,6 +16,7 @@
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 .btn:hover{
     background-color: #b0e6c7;
@@ -44,7 +45,7 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     font-size: 16px;
-    color: black;
+    color: rgb(59, 59, 59);
 }
 header nav ul li a:hover{
     color: #30B868;
@@ -52,7 +53,7 @@ header nav ul li a:hover{
 header nav button{
     margin: 24px 120px 24px 0px;
 }
-.home{
+#home{
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +61,7 @@ header nav button{
     width: 100%;
     height: 100vh; 
 }
-.home .container{
+#home .container{
     position: absolute;
     left: 0;
     right: 0;
@@ -69,7 +70,7 @@ header nav button{
     margin: 300px auto;
     
 }
-.home .container .early{
+#home .container .early{
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -79,13 +80,13 @@ header nav button{
     height: 35px;
     margin: 16px auto;
 }
-.home .container .early p{
+#home .container .early p{
     font-size: 16px;
     font-weight: 500;
     color: #30B868;
     margin: 8px 12px 8px 0px;
 }
-.home .container .early .circle{
+#home .container .early .circle{
     width: 16px;
     height: 16px;
     background-color: #30B868;
@@ -93,35 +94,35 @@ header nav button{
     border-radius: 8px;
     margin: 9.5px 6px 9.5px 12px;
 }
-.home .container .content{
+#home .container .content{
     text-align: center;  
 }
-.home .container .content h1{
+#home .container .content h1{
     color: #ffffff;
     font-size: 70px;
 }
-.home .container .content h1 span{
+#home .container .content .highlight{
     color: #30B868;
 }
-.home .container .content p{
+#home .container .content p{
     color: #ffffff;
     font-size: 18px;
     margin-top: 16px;
 }
-.home .container .button{
+#home .container .button{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 32px;
     gap: 16px;
 }
-#first-btn{
+#home .container .button #first-btn{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-#second-btn{
+#home .container .button #second-btn{
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -134,8 +135,71 @@ header nav button{
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
-#second-btn:hover{
+#home .container .button #second-btn:hover{
     border: 2px solid #30B868;
     color: #30B868;
+}
+#second-section{
+    height: 450px;
+    text-align: center;
+}
+#second-section .heading h1{
+    margin-top: 50px;
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+}
+#second-section .heading p{
+    color: #627382;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 180px;
+}
+.box-container .box-content{
+    width: 320px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+    box-shadow: 10px 10px 25px #9f9f9f;
+    transition: all 0.3s ease-in-out;
+}
+.box-container .box-content:hover{
+    box-shadow: 20px 20px 25px #F95555;
+}
+.box-container .box-content .img{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.box-container .box-content img{
+    width: 32px;
+    height: 32px;
+}
+.box-container .box-content h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.box-container .box-content p{
+    font-size: 16px;
+    color: #627382;
 }
