@@ -9,7 +9,7 @@
 }
 .btn{
     padding: 13px 16px;
-    border: none;
+    border: 2px solid #30B868;
     background-color: #30B868;
     color: #ffffff;
     font-size: 16px;
@@ -19,7 +19,8 @@
     transition: all 0.3s ease-in-out;
 }
 .btn:hover{
-    background-color: #b0e6c7;
+    background-color: transparent;
+    border: 2px solid #30B868;
     color: #30B868;
 }
 header nav{
@@ -269,4 +270,33 @@ header nav button{
 }
 #fourth-section .container .third-line{
     margin-top: 16px;
+}
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+footer .link{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+footer .link .social h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+footer .link .social i{
+    color: #ffffff;
+    margin: 16px 16px 0px 0px;
+    font-size: 20px;
+}
+footer .link .social i:hover{
+    color: #30B868;
+}
+footer .copyright{
+    border-top: 1px solid #434343;
+    padding-top: 30px;
+    text-align: center;
+    color: #fafafa;
+    font-size: 16px;
 }
