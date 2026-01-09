@@ -242,3 +242,31 @@ header nav button{
     font-weight: 500;
     color: #001931;
 }
+#fourth-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F6F2;
+    box-shadow: 5px 5px 30px #d4d4d4;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 120px 120px 120px;
+    padding: 80px 40px;
+}
+#fourth-section .container h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#fourth-section .container p{
+    font-size: 16px;
+    color: #627382;  
+}
+#fourth-section .container .second-line{
+    margin-bottom: 24px;
+}
+#fourth-section .container .third-line{
+    margin-top: 16px;
+}
