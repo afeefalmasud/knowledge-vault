@@ -46,6 +46,7 @@ header nav ul li a{
     text-decoration: none;
     font-size: 16px;
     color: rgb(59, 59, 59);
+    transition: all 0.3s ease-in-out;
 }
 header nav ul li a:hover{
     color: #30B868;
@@ -202,4 +203,42 @@ header nav button{
 .box-container .box-content p{
     font-size: 16px;
     color: #627382;
+}
+#third-section .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    margin: 120px;
+}
+#third-section .container .img-content img{
+    width: 600px;
+    height: 600px;
+}
+#third-section .container .info-content h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+#third-section .container .info-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#third-section .container .info-content .paragraph{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+#third-section .container .info-content ul li{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+#third-section .container .info-content ul li p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
 }
