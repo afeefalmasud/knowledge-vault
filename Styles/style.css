@@ -1,3 +1,5 @@
+/* Shared Styles */
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@
 }
 .btn{
     padding: 13px 16px;
-    border: 2px solid #30B868;
+    border: 3px solid #30B868;
     background-color: #30B868;
     color: #ffffff;
     font-size: 16px;
@@ -20,9 +22,12 @@
 }
 .btn:hover{
     background-color: transparent;
-    border: 2px solid #30B868;
+    border: 3px solid #30B868;
     color: #30B868;
 }
+
+/* Navbar */
+
 header nav{
     background-color:#ffffff;
     display: flex;
@@ -55,6 +60,9 @@ header nav ul li a:hover{
 header nav button{
     margin: 24px 120px 24px 0px;
 }
+
+/* Banner Section */
+
 #home{
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -92,7 +100,7 @@ header nav button{
     width: 16px;
     height: 16px;
     background-color: #30B868;
-    opacity: 80%;
+    opacity: 60%;
     border-radius: 8px;
     margin: 9.5px 6px 9.5px 12px;
 }
@@ -130,8 +138,8 @@ header nav button{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 13px 16px;
-    border: 2px solid #ffffff;
+    padding: 10px 16px;
+    border: 3px solid #ffffff;
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
@@ -140,9 +148,12 @@ header nav button{
     transition: all 0.3s ease-in-out;
 }
 #home .container .button #second-btn:hover{
-    border: 2px solid #30B868;
+    border: 3px solid #30B868;
     color: #30B868;
 }
+
+/* Notes Section */
+
 #second-section{
     height: 450px;
     text-align: center;
@@ -159,13 +170,13 @@ header nav button{
     margin-top: 16px;
 }
 
-.box-container{
+#second-section .box-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 48px 180px;
 }
-.box-container .box-content{
+#second-section .box-container .box-content{
     width: 320px;
     height: 300px;
     background-color: #ffffff;
@@ -178,10 +189,10 @@ header nav button{
     box-shadow: 10px 10px 25px #9f9f9f;
     transition: all 0.3s ease-in-out;
 }
-.box-container .box-content:hover{
+#second-section .box-container .box-content:hover{
     box-shadow: 20px 20px 25px #F95555;
 }
-.box-container .box-content .img{
+#second-section .box-container .box-content .img{
     background-color: #F95555;
     width: 60px;
     height: 60px;
@@ -191,20 +202,23 @@ header nav button{
     align-items: center;
     margin-bottom: 16px;
 }
-.box-container .box-content img{
+#second-section .box-container .box-content img{
     width: 32px;
     height: 32px;
 }
-.box-container .box-content h2{
+#second-section .box-container .box-content h2{
     font-size: 24px;
     font-weight: 600;
     color: #001931;
     margin-bottom: 16px;
 }
-.box-container .box-content p{
+#second-section .box-container .box-content p{
     font-size: 16px;
     color: #627382;
 }
+
+/* Second Brain Section */
+
 #third-section .container{
     display: flex;
     justify-content: space-evenly;
@@ -243,6 +257,9 @@ header nav button{
     font-weight: 500;
     color: #001931;
 }
+
+/* Early Access Section */
+
 #fourth-section .container{
     display: flex;
     flex-direction: column;
@@ -271,6 +288,9 @@ header nav button{
 #fourth-section .container .third-line{
     margin-top: 16px;
 }
+
+/* Footer Section */
+
 footer{
     background-color: #001931;
     padding: 120px 120px 30px 120px;
@@ -294,7 +314,7 @@ footer .link .social i:hover{
     color: #30B868;
 }
 footer .copyright{
-    border-top: 1px solid #434343;
+    border-top: 2px solid #656565;
     padding-top: 30px;
     text-align: center;
     color: #fafafa;
